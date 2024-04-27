@@ -1,0 +1,15 @@
+div{
+    height: 80vh;
+    width: 60%;
+    background-image: url("https://i.gifer.com/75ez.gif");
+    position: relative;
+    left: 20%;
+    color: black;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    
+}
+body{
+    background-color: #3EE8C4;
+}

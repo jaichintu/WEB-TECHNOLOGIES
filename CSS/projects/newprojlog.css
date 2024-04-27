@@ -1,0 +1,24 @@
+form{
+
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 200px;
+    
+    
+}
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2016/07/24/21/01/thermometer-1539191_1280.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+fieldset{
+    border-radius: 20%;
+}
+h1{
+    color: whitesmoke;
+}

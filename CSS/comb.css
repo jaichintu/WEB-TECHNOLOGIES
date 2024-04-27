@@ -1,0 +1,56 @@
+/* div h4{
+
+    color: red;
+    background-color: blue;
+} */
+
+#parent{
+
+    height: 700px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+
+    justify-content: space-evenly;
+    align-items: center;
+}
+#child1{
+
+    height: 100px;
+    width: 10%;
+    background-color: blue;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+#child2{
+
+    height: 100px;
+    width: 10%;
+    background-color: rgb(7, 180, 73);
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+#child3{
+
+    height: 100px;
+    width: 10%;
+    background-color: rgb(231, 162, 12);
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+#child4{
+
+    height: 100px;
+    width: 10%;
+    background-color: rgb(16, 191, 214);
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}

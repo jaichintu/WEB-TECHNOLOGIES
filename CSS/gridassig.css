@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#Main{
+    width:100% ;
+    height: 200vh;
+    display: grid;
+    border: 1px solid red;
+    grid-template-columns:10%  40% 40% 10%;
+    grid-template-rows:7% 53% 40%;
+    
+}
+.nature{
+    border: 1px solid red;
+
+}
+#box1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    text-align: start;
+    font-size: 300%;
+}
+#box2{
+    grid-column-start: 3;
+    grid-column-end: 5;
+
+    text-align: start;
+    font-size: 300%;
+}
+#box3{
+    grid-column-start: 2;
+    grid-column-end: 4;
+
+    background-image: url(./Images/river.jpg);
+    background-size: cover;
+}
+#box4{
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    display: grid;
+    border: 1px solid red;
+    grid-template-columns:17% 17% 17% 17% 17% 15%;
+    grid-template-rows:6% 18% 18% 18% 18% 18%;
+
+}
+#box5{
+    grid-column-start: 3;
+    grid-column-end: 5;
+
+}
+#box{
+    grid-column-start: 3;
+    grid-column-end: 5;
+
+}
+.nat{
+    border: 1px solid red;
+}
+#sub1{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end:2;
+
+    background-size: cover;
+    text-align: center;
+    font-size: 100%;
+}
+#sub2{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end:4;
+
+    background-image: url(./Images/maountain.jpg);
+    background-size: cover;
+    text-align: center;
+    font-size: 100%;
+}
+#sub3{
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end:4;
+
+    background-image: url(./Images/Tornado.jpg);
+    background-size: cover;
+    text-align: center;
+    font-size: 100%;
+}
+#sub4{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end:6;
+
+    background-image: url(./Images/lighting.gif);
+        background-size: cover;
+    text-align: center;
+    font-size: 100%;
+}
+#sub5{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end:8;
+
+    background-image: url(./Images/lake.jpg);
+    background-size: cover;
+    text-align: center;
+    font-size: 100%;
+}
+#sub6{
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end:8;
+
+    background-image: url(./Images/snow.jpg);
+    background-size: cover;
+    text-align: center;
+    font-size: 100%;
+}

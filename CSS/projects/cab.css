@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    height: 11vh;
+    width: 100%;
+    background-color: #FFDF00;
+}
+#right-side{
+    height: 10vh;
+    width: 45%;
+    margin-left: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+
+}
+.kla{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    position: relative;
+    
+    
+}
+/* .kla::after{
+    content: "";
+    height: 3px;
+    width: 0%;
+    background-color: #0a0a0a;
+    border-radius: 25%;
+    position: absolute;
+    top: 22px;
+    left: 0;
+    transition: 0.5s;
+    
+} */
+.kla:hover{
+    color: rgb(15, 15, 15);
+    border: 2px solid black;
+}
+.kla:hover::after{
+    width: 100%;
+}
+.fa-solid{
+    position: relative;
+    top: 22px;
+    left: 10px;
+    text-decoration: none;
+}
+#part-1{
+    background-image: url("https://cdn.pixabay.com/photo/2019/06/11/21/51/new-york-4267940_1280.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+    
+}
+#semi{
+    font-size: 100px;
+    position: relative;
+    left: 200px;
+    top: 150px;
+    color: #FFDF00;
+    text-shadow: 2px 2px 3px #0c0a00;
+}
+#semi1{
+    border: 5px solid #FFDF00 ;
+    width: 12%;
+    position: relative;
+    left: 600px;
+    top: 200px;
+    font-size: 30px;
+    
+}
+#semi1:hover{
+    background-color: #FFDF00;
+    cursor: pointer;
+}
+#part-2{
+    background-color: #0a0a0a;
+    height: 80vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#yellow1{
+    color: #FFDF00;
+    font-size: 40px;
+    position: relative;
+    
+}
+#yellow2{
+    border: 2px solid yellow;
+    width: 6%;
+    position: relative;
+    left: 800px;
+    bottom: 100px;
+    color: whitesmoke;
+}
+#yellow2:hover{
+    background-color: #FFDF00;
+    cursor: pointer;
+}
+footer{
+    height: 250px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.ig{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 300px;
+
+}
+.ig2{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 350px;
+
+}
+.ig3{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 400px;
+
+}
+#uy{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100px;
+    right: 100px;
+}
+#ioi{
+    text-decoration: none;
+    color: #0a0a0a;
+}
+
+#anc{
+    position: relative;
+    bottom: 22px;
+    color: #0a0a0a;
+}
+body{
+    overflow-x: hidden;
+}
+
+

@@ -1,0 +1,45 @@
+#demo{
+
+    color: blue;
+    background-color: brown;
+}
+body{
+
+    background-color: rgb(217, 231, 22);
+}
+
+.ui{
+
+    color: blueviolet;
+    background-color: rgb(224, 127, 7);
+}
+
+section{
+
+    color: maroon;
+    background-color: rgb(14, 187, 187);
+}
+
+p,h2,pre{
+
+    color: aqua;
+    background-color: rgb(1, 15, 8);
+}
+
+#yoo{
+
+    color: mediumslateblue;
+}
+.ooo{
+
+    color: rgb(221, 12, 12);
+}
+
+aside,nav{
+    color: rgb(18, 1, 172);
+
+}
+
+*{
+    background-color: rgb(182, 153, 153);
+}

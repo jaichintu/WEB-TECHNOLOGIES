@@ -1,0 +1,35 @@
+#uy{
+    height: 30vh;
+    width: 100%;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#he{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+    color: red;
+    border: 3px solid yellow;
+}
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2021/02/21/18/15/biriyani-6037375_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#er{
+    color: yellow;
+    font-size: 30px;
+    border: 3px dotted yellow;
+}
+#ty{
+    position: relative;
+    left: 400px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

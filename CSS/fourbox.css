@@ -1,0 +1,8 @@
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2014/08/29/03/02/horses-430441_1280.jpg"),url("https://cdn.pixabay.com/photo/2019/10/30/16/19/fox-4589927_1280.jpg"),url("https://cdn.pixabay.com/photo/2013/05/17/07/12/elephant-111695_1280.jpg"),url("https://cdn.pixabay.com/photo/2018/10/07/11/49/animal-3729821_1280.jpg"),url("https://cdn.pixabay.com/photo/2016/09/14/17/09/lion-1669839_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: 250px 250px,250px 250px,250px 250px,250px 250px,350px 350px;
+    background-position: top left,top right,bottom left,bottom right,center;
+    background-attachment: fixed;
+    background-color: black;
+}

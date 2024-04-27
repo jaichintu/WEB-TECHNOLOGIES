@@ -1,0 +1,33 @@
+div{
+
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://cdn.pixabay.com/photo/2023/05/28/16/16/jaw-8024092_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    background-attachment: fixed;
+}
+div::first-letter
+{
+    color: red;
+    font-size: 100px;
+
+}
+div::first-line{
+
+    color: blue;
+}
+span::before{
+
+    content: "Headlines=>";
+}
+div::after{
+
+    content: "=>Thank you";
+    color: yellow;
+}
+div::selection{
+
+    color: bisque;
+    background-color: black;
+}

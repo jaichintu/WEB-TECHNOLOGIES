@@ -1,0 +1,52 @@
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100Vh;
+}
+#main{
+    height: 70vh;
+    width: 58%;
+    background-color: pink;
+    position: relative;
+    top: 15vh;
+    left: 27%;
+    border-radius: 5%;
+}
+#section-1{
+    height: 70vh;
+    width: 45%;
+    background-image: url("https://i.gifer.com/8V9H.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    border-radius: 5%;
+}
+form{
+    position: relative;
+    bottom: 450px;
+    left: 45%;
+    line-height: 70px;
+    font-size: 17px;
+}
+::placeholder{
+    position: relative;
+    left: 20%;
+    color: blue;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+input{
+    height: 23px;
+    width: 90%;
+    border-radius: 5%;
+    border: 2px solid grey;
+}
+button{
+    height: 30px;
+    width: 80%;
+    position: relative;
+    left: 20%;
+    background-color: red;
+    color: yellow;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

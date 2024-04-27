@@ -1,0 +1,17 @@
+form{
+
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 200px;
+    
+}
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2017/11/24/10/43/ticket-2974645_1280.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

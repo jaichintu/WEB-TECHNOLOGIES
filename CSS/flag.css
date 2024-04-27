@@ -1,0 +1,27 @@
+#a{
+    height: 40vh;
+    width: 40%;
+    /* border-radius: 150%; */
+    background-image: linear-gradient(orange 30%,white 30%,white 70%,green 70%);
+    /* transition: all 2s linear 1s; */
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+
+}
+#b{
+    height: 15vh;
+    width: 10%;
+    background-image: repeating-conic-gradient(white 0%,white 3%,blue 3%,blue 5%);
+    border-radius: 50%;
+    border: 2px solid black;
+    position: relative;
+    bottom: 185px;
+    left: 0%;
+}
+/* #a:hover{
+    height: 100vh;
+    width: 80%;
+
+} */

@@ -1,0 +1,67 @@
+#parent{
+
+    height: 610px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+#parent2{
+
+    height: 510px;
+    width: 90%;
+    background-color: rgb(243, 9, 9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+}
+
+#parent3{
+
+    height: 410px;
+    width: 80%;
+    background-color: rgb(17, 243, 9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+}
+
+#parent4{
+
+    height: 310px;
+    width: 70%;
+    background-color: rgb(83, 9, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+}
+#parent5{
+
+    height: 210px;
+    width: 60%;
+    background-color: rgb(243, 9, 153);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+#parent6{
+
+    height: 110px;
+    width: 50%;
+    background-color: rgb(208, 243, 9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}

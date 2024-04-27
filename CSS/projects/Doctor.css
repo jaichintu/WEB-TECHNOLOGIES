@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    background-position: fixed;
+}
+li{
+    list-style: none;
+    color: white;
+}
+header{
+
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    /* background-position: fixed; */
+
+}
+#jj1{
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#jj2{
+    position: absolute;
+    left: 60%;
+    bottom: 10px;
+
+
+}
+#jj2:hover{
+    border: 1px solid aqua;
+    cursor: pointer;
+}
+#jj3{
+    position: absolute;
+    left: 70%;
+    bottom: 10px;
+
+
+}
+#jj3:hover{
+    border: 1px solid aqua;
+    cursor: pointer;
+}
+#jj4{
+    position: absolute;
+    left: 80%;
+    bottom: 10px;
+}
+#jj4:hover{
+    border: 1px solid aqua;
+    cursor: pointer;
+}
+#jj5{
+    position: absolute;
+    left: 85%;
+    bottom: 10px;
+    
+}
+#jj5:hover{
+    border: 1px solid aqua;
+    cursor: pointer;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+#kk{
+    width: 100%;
+}
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2021/04/08/15/06/doctor-6161898_1280.jpg");
+    height: 200vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: #1F6E8C; */
+    background-attachment: fixed;
+}
+#kk1{
+
+    font-style: oblique;
+    font-size: 300%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(100, 3, 0);
+    position: relative;
+    left: 35%;
+    top: 100px;
+}
+#kk2{
+    /* font-style: italic; */
+    font-size: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(197, 50, 13);
+    position: relative;
+    left: 35%;
+    top: 100px;
+    
+}
+#kk3{
+    /* font-style: italic; */
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgreen;
+    position: relative;
+    left: 35%;
+    top: 100px;
+}
+#kk4{
+    position: relative;
+    left: 35%;
+    top: 100px;
+    border: 5px solid rgb(12, 12, 12);
+    background-color: rgb(215, 215, 224);
+    width: 10%;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+#kk4:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+#kk5{
+
+    position: relative;
+    /* left: 30%; */
+    top: 200px;
+    font-size: 200%;
+    color: greenyellow;
+}
+#kk6{
+    height: 200px;
+    width: 150px;
+    background-color: black;
+    position: relative;
+    top: 200px;
+    left: 30%;
+    background-image: url("https://cdn.pixabay.com/photo/2022/09/25/21/31/heart-attack-7479253_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    background-position: 30%;
+    border-radius: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#kk8{
+    border: 5px solid white;
+    width: 10%;
+    cursor: pointer;
+    position: relative;
+    left: 30%;
+    top: 200px;
+    color: black;
+    
+}
+#kk9{
+    border: 5px solid white;
+    width: 10%;
+    cursor: pointer;
+    position: relative;
+    left: 30%;
+    top: 204px;
+}
+#kk8:hover{
+
+    background-color: aqua;
+}
+#kk9:hover{
+
+    background-color: aqua;
+}
+#kk10{
+    height: 200px;
+    width: 150px;
+    background-color: black;
+    position: relative;
+    top: -55px;
+    left: 45%;
+    background-image: url("https://cdn.pixabay.com/photo/2020/04/17/09/57/coronavirus-5054082_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    background-position: 30%;
+    border-radius: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#kk11{
+    border: 5px solid white;
+    width: 10%;
+    cursor: pointer;
+    position: relative;
+    left: 45%;
+    top: -55px;
+    
+}
+#kk12{
+    border: 5px solid white;
+    width: 10%;
+    cursor: pointer;
+    position: relative;
+    left: 45%;
+    top: -51px;
+}
+#kk11:hover{
+
+    background-color: aqua;
+}
+#kk12:hover{
+
+    background-color: aqua;
+}
+#kk13{
+    height: 200px;
+    width: 150px;
+    background-color: black;
+    position: relative;
+    top: -309px;
+    left: 63%;
+    background-image: url("https://media.istockphoto.com/id/1348876709/photo/young-man-with-hearing-problems-or-hearing-loss-hearing-test-concept.jpg?s=612x612&w=0&k=20&c=1cfSgPAQKGjI0qmkJwySXmzB6S_vNkyfHRplt6bYIr4=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    background-position: 30%;
+    border-radius: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#kk14{
+    border: 5px solid white;
+    width: 10%;
+    cursor: pointer;
+    position: relative;
+    left: 63%;
+    bottom: 310px;
+    
+}
+#kk15{
+    border: 5px solid white;
+    width: 10%;
+    cursor: pointer;
+    position: relative;
+    left: 63%;
+    bottom: 308px;
+}
+#kk14:hover{
+
+    background-color: aqua;
+}
+#kk15:hover{
+
+    background-color: aqua;
+}
+/* #kk13:hover{
+    background-color: beige;
+    cursor: pointer;
+} */
+#yy{
+    height: 60px;
+    width: 10%;
+}
+footer{
+    height: 250px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.ig{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 300px;
+
+}
+.ig2{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 350px;
+
+}
+.ig3{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 400px;
+
+}
+#uy{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100px;
+    right: 100px;
+}
+.fa-solid{
+
+    position: relative;
+
+    left: 90%;
+
+    bottom: 50px;
+
+    right: 200px;
+    top: -30px;
+}
+#tan{
+
+
+    position: relative;
+    left: 20%;
+    bottom: 30px;
+}
+
+

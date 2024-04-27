@@ -1,0 +1,25 @@
+form{
+
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 200px;
+    
+    
+    
+}
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2015/12/15/19/08/taxi-1094777_640.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+fieldset{
+    border-radius: 20%;
+}
+h1{
+    color: rgb(12, 11, 11);
+}
